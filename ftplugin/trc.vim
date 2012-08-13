@@ -1,8 +1,13 @@
-" trcbrowser.vim:	Utilities to browser plain text file.
-" Release:		1.3.5
-" Maintainer:		ypguo<guoyoooping@163.com>
-" Last modified:	2011.08.07
-" License:		GPL
+"=============================================================================
+"     FileName: trc.vim
+"         Desc: 
+"       Author: loseblue
+"        Email: loseblue[a]163.com
+
+"      Version: 0.0.1
+"   LastChange: 2012-08-09 17:01:59
+"      History:
+"=============================================================================
 
 " Line continuation used here
 let s:cpo_save = &cpo

@@ -29,12 +29,12 @@ hi cFunction        guifg=#009933   guibg=NONE      gui=bold
 " Highlight trc error
 "========================================================
 syn match trcMessage display "\s[<-]-[>-]\s<[0-9A-Za-z_ ]*>"
-syn match trcLayer display "^[a-zA-Z_]*\s\+:"
+syn match trcLayer display "^[a-zA-Z_]*\s\+: [ 0-9][0-9]"
 syn match trcError display "\s[Ee]rror\s"
 syn match trcError display "LOST MSG !!!"
 syn match trcError display "FAILED"
 syn match trcError display "bad auxiliary"
-syn match trcFsm display "[c-s][c-s]_Fsm"
+syn match trcFsm display "[ l][a-z][a-z]_Fsm"
 syn match trcStatus display "Status Enquiry, state [0-9 ][0-9 ], cause [0-9 ][0-9 ]"
 syn match trcStatus display "Auxiliary state\s\d[0-9 ]*"
 syn match trcStatus display "Status with bad cause:\s[0-9 ]*"
