@@ -38,7 +38,7 @@ endif
 let s:TBrowser_Config = ' --langdef=trc --langmap=trc:.trc '
 
 "Title tag definition
-let s:TBrowser_Config .= '--regex-trc="/^(.+)([<-]-[>-]\s<[0-9A-Za-z_]*>)$/\1\2/c,content/" '
+let s:TBrowser_Config .= '--regex-trc="/^(.+)([<-]-[>-]\s<[0-9A-Za-z_]*>[ \t]*)$/\1\2/c,content/" '
 if (trcBrowser_Title_Level >= 2)
 	let s:TBrowser_Config .= '--regex-trc="/^(([0-9]+\.){1}([0-9]+\.?)[ \t]+)(.+$)/.   \1\4/c,content/" '
 endif
