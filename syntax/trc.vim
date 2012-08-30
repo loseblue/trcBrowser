@@ -29,7 +29,7 @@ hi cFunction        guifg=#009933   guibg=NONE      gui=bold
 " Highlight trc error
 "========================================================
 syn match trcMessage display "\s[<-]-[>-]\s<[0-9A-Za-z_ ]*>"
-syn match trcLayer display "^[a-zA-Z_]*\s\+: [ 0-9][0-9]"
+syn match trcLayer display "^[a-z0-9A-Z_]*\s\+: [ 0-9][0-9]"
 syn match trcError display "\s[Ee]rror\s"
 syn match trcError display "LOST MSG !!!"
 syn match trcError display "FAILED"
