@@ -30,6 +30,7 @@ hi cFunction        guifg=#009933   guibg=NONE      gui=bold
 "========================================================
 syn match trcMessage display "\s[<-]-[>-]\s<[0-9A-Za-z_ ]*>"
 syn match trcLayer display "^[a-z0-9A-Z_]*\s\+: [ 0-9][0-9]"
+syn match trcLayer1 display "^[a-z0-9A-Z_]*\s\+[ 0-9][0-9]:"
 syn match trcError display "\s[Ee]rror\s"
 syn match trcError display "LOST MSG !!!"
 syn match trcError display "FAILED"
@@ -42,6 +43,7 @@ syn match trcStatus display "Status with bad cause:\s[0-9 ]*"
 
 hi trcMessage     guifg=#0000AA guibg=NONE    gui=bold
 hi trcLayer       guifg=#AAAAAA guibg=#ff0000 guibg=NONE    gui=bold
+hi trcLayer1       guifg=#AAAAAA guibg=#ff0000 guibg=NONE    gui=bold
 hi trcError       guifg=#000000 guibg=#ff0000 term=reverse cterm=bold
 hi trcFsm         guifg=#CC00CC guibg=NONE    gui=bold
 hi trcStatus      guifg=#ff0000 guibg=NONE    gui=bold
