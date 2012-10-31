@@ -5,7 +5,7 @@
 "        Email: loseblue@163.com
 "     HomePage: http://www.google.com
 "      Version: 0.0.1
-"   LastChange: 2012-04-01 11:52:29
+"   LastChange: 2012-10-31 11:10:29
 "      History:
 "=============================================================================
 
@@ -28,7 +28,7 @@ hi cFunction        guifg=#009933   guibg=NONE      gui=bold
 "========================================================
 " Highlight trc error
 "========================================================
-syn match trcMessage display "\s[<-]-[>-]\s<[0-9A-Za-z_ ]*>"
+syn match trcMessage display "\s[<-]-[>-][ ]*<[0-9A-Za-z_ ]*>"
 syn match trcLayer display "^[a-z0-9A-Z_]*\s\+: [ 0-9][0-9]"
 syn match trcLayer1 display "^[a-z0-9A-Z_]*\s\+[ 0-9][0-9]:"
 syn match trcError display "\s[Ee]rror\s"
