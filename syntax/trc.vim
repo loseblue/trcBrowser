@@ -5,7 +5,7 @@
 "        Email: loseblue@163.com
 "     HomePage: http://www.google.com
 "      Version: 0.0.1
-"   LastChange: 2012-10-31 11:10:29
+"   LastChange: 2013-01-10 17:04:25
 "      History:
 "=============================================================================
 
@@ -39,6 +39,7 @@ syn match trcFsm display "[ l][a-z][a-z]_Fsm"
 syn match trcStatus display "Status Enquiry, state [0-9 ][0-9 ], cause [0-9 ][0-9 ]"
 syn match trcStatus display "Auxiliary state\s\d[0-9 ]*"
 syn match trcStatus display "Status with bad cause:\s[0-9 ]*"
+syn match trcStatus display "Network STATUS for CS:\s[0-9 ]*"
 "syn match trcTest display "^[a-zA-Z_]*\s\s:\s\s\d\s[<-]-[>-]\s<[0-9A-Za-z_]*>$"
 
 hi trcMessage     guifg=#0000AA guibg=NONE    gui=bold
